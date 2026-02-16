@@ -29,7 +29,7 @@
              FontSize="18"
              FontFamily="MV Boli"
              VerticalContentAlignment="Center"
-             Padding="10,0,0,0"/>
+             Padding="10,0,0,0" TextAlignment="Center"/>
         </Border>
 
         <Button Content="Search"

@@ -17,21 +17,19 @@
                    FontSize="36"
                    FontWeight="Bold"
                    Foreground="White"
-                   HorizontalAlignment="Left"
-                   Margin="114,0,0,0"
+                   HorizontalAlignment="Center"
                    VerticalAlignment="Top"
-                   FontFamily="MV Boli"/>
+                   FontFamily="MV Boli" Width="480" TextAlignment="Center"/>
         <!-- Location (always visible for demo) -->
 
         <TextBlock x:Name="LocationText"
            Text="Currently in London"
            FontSize="22"
            Foreground="White"
-           HorizontalAlignment="Left"
-           Margin="125,58,0,0"
+           Margin="0,58,0,0"
            VerticalAlignment="Top"
-           FontFamily="MV Boli"/>
-        
+           FontFamily="MV Boli" Width="500" HorizontalAlignment="Center" TextAlignment="Center"/>
+
         <Image x:Name="WeatherImage"
                Width="200"
                Height="200"
@@ -41,7 +39,7 @@
                Margin="0,87,0,0"
                gif:ImageBehavior.AnimatedSource="Assets/cloudy.gif"
                Visibility="Collapsed"/>
-        
+
         <TextBlock x:Name="TemperatureText"
                    Text="12°C"
                    FontSize="60"
@@ -52,7 +50,7 @@
                    VerticalAlignment="Top"
                    FontFamily="MV Boli"
                    Visibility="Collapsed"/>
-       
+
         <TextBlock x:Name="ConditionText"
                    Text="Cloudy"
                    FontSize="28"
@@ -62,7 +60,7 @@
                    VerticalAlignment="Top"
                    FontFamily="MV Boli"
                    Visibility="Collapsed"/>
-       
+
         <StackPanel x:Name="StatsPanel"
                     Orientation="Horizontal"
                     HorizontalAlignment="Left"
@@ -71,17 +69,17 @@
                     Width="350"
                     Height="60"
                     Visibility="Collapsed">
-            
+
             <StackPanel Width="100" HorizontalAlignment="Center">
                 <TextBlock Text="Wind Now" FontSize="18" Foreground="White" HorizontalAlignment="Center"/>
                 <TextBlock x:Name="WindText" Text="10 km/h" FontSize="20" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center"/>
             </StackPanel>
-          
+
             <StackPanel Width="100" HorizontalAlignment="Center">
                 <TextBlock Text="Humidity" FontSize="18" Foreground="White" HorizontalAlignment="Center"/>
                 <TextBlock x:Name="HumidityText" Text="20%" FontSize="20" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center"/>
             </StackPanel>
-           
+
             <StackPanel Width="100" HorizontalAlignment="Center">
                 <TextBlock Text="Precipitation" FontSize="18" Foreground="White" HorizontalAlignment="Center"/>
                 <TextBlock x:Name="PrecipitationText" Text="30%" FontSize="20" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center"/>

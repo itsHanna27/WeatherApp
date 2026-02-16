@@ -23,3 +23,4 @@ C:\Users\hanna\source\repos\WeatherApplication\WeatherApplication\obj\Debug\net1
 C:\Users\hanna\source\repos\WeatherApplication\WeatherApplication\obj\Debug\net10.0-windows\WeatherA.58898938.Up2Date
 C:\Users\hanna\source\repos\WeatherApplication\WeatherApplication\obj\Debug\net10.0-windows\WeatherPage.baml
 C:\Users\hanna\source\repos\WeatherApplication\WeatherApplication\obj\Debug\net10.0-windows\WeatherPage.g.cs
+C:\Users\hanna\source\repos\WeatherApplication\WeatherApplication\obj\Debug\net10.0-windows\WeatherApplication.sourcelink.json
