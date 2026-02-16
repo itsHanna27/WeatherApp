@@ -1,0 +1,64 @@
+﻿<Window x:Class="WeatherApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeatherApplication"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="500">
+    <Grid Background="#FF8C8CCF">
+        <TextBlock HorizontalAlignment="Center" Height="52" TextWrapping="Wrap" Text="Weather App" VerticalAlignment="Top" Width="400" TextAlignment="Center" FontFamily="MV Boli" Foreground="White" FontSize="36" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,40,0,0" gif:ImageBehavior.AnimatedSource="Assets/sun.gif" MaxWidth="250" MaxHeight="250"/>
+
+        <TextBlock HorizontalAlignment="Center" Height="38" Margin="0,251,0,0" TextWrapping="Wrap" Text="Type in the city:" VerticalAlignment="Top" Width="400" TextAlignment="Center" Foreground="White" FontSize="24" FontFamily="MV Boli"/>
+        <Border Width="357"
+        Height="39"
+        Margin="0,311,0,0"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Top"
+        Background="#FF7575B0"
+        BorderBrush="#FF5E5E91"
+        BorderThickness="3"
+        CornerRadius="15">
+
+            <TextBox x:Name="CityTextBox"
+             Background="Transparent"
+             BorderThickness="0"
+             Foreground="White"
+             FontSize="18"
+             FontFamily="MV Boli"
+             VerticalContentAlignment="Center"
+             Padding="10,0,0,0"/>
+        </Border>
+
+        <Button Content="Search"
+        HorizontalAlignment="Left"
+        Height="41"
+        Width="253"
+        Margin="118,371,0,0"
+        VerticalAlignment="Top"
+        Click="Button_Click"
+        Foreground="#C1C1CE"
+        FontFamily="MV Boli"
+        FontSize="20">
+
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="#FF4A4A70"
+                    BorderBrush="#FF5E5E91"
+                    BorderThickness="1"
+                    CornerRadius="16">
+
+                        <ContentPresenter
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+
+        </Button>
+
+
+    </Grid>
+</Window>
