@@ -12,7 +12,7 @@
         ResizeMode="NoResize"
         Background="#FF8C8CCF">
     <Grid>
-        <!-- Title (always visible) -->
+    
         <TextBlock Text="Weather App"
                    FontSize="36"
                    FontWeight="Bold"
@@ -20,7 +20,7 @@
                    HorizontalAlignment="Center"
                    VerticalAlignment="Top"
                    FontFamily="MV Boli" Width="480" TextAlignment="Center"/>
-        <!-- Location (always visible for demo) -->
+       
 
         <TextBlock x:Name="LocationText"
            Text="Currently in London"
