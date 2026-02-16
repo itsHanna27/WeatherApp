@@ -117,7 +117,7 @@ namespace WeatherApplication {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WeatherApplication;component/weatherpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WeatherApplication;V1.0.0.0;component/weatherpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\WeatherPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
